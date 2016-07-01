@@ -20,7 +20,8 @@
         
 
     <footer>
-        <?php include $_SERVER['DOCUMENT_ROOT'].'medreview/modules/footer.php'; ?>     
+        <?php include  // $_SERVER['DOCUMENT_ROOT'].
+        '/modules/footer.php'; ?>     
     </footer>  
     </body>
     

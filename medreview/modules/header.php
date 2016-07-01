@@ -1,7 +1,7 @@
 <header>
     <nav> 
-        <div id="menu" class="gh">
-            <ul class ="gul">
+        <div id="menu" class="">
+            <ul class ="head">
                 <li class="head"><a href="/">Review</a></li>
                 <li class="head"><a href="/">About</a></li>
                 <li class="head"><a href="/">Contact</a></li>
