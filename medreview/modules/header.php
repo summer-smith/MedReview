@@ -1,12 +1,12 @@
 <header class="header">
     <div class="logo">
-        <a href="../index.php"><img src="../images/logabasic.jpg" alt="Home"/></a>
+          <img src="images/logobasic.jpg" alt="Home"/>
     </div>
     <nav class="navigation"> 
         <div id="menu">
             <ul class ="navigation">
-                <li class="navigation"><a  href="/">Review</a></li>
-                <li class="navigation"><a  href="/">About</a></li>
+                <li class="navigation"><a  href="../view/doctorreview.php">Review</a></li>
+                <li class="navigation"><a  href="/view/faq.php">FAQ</a></li>
                 <li class="navigation"><a  href="/">Contact</a></li>
             </ul>
         </div>

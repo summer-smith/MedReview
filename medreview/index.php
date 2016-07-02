@@ -15,11 +15,27 @@ if ($action == NULL){
 
 
 switch( $action ) {
-    case 'Login Page':
-        include('login.php');
+    case 'account':
+        include('/view/account.php');
         break;
-     
+
+    case 'faq':
+        include('/view/faq.php');
+        break;
     
+    case 'doctorreview':
+        include('/view/doctorreview.php');
+        break;
+    
+    case 'hospitalreview':
+        include('/view/hospitalreview.php');
+        break;
+    
+    case 'login':
+        include('/view/login.php');
+        break;
+    
+    case 'home':
     default:
         include('/view/home.php');
 }

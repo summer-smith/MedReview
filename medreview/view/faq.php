@@ -18,7 +18,7 @@
             <?php include '/modules/sidebar.php'; ?>
 
             <div class="body">
-                <h4>Account</h4>
+                <h4>Frequently Asked Questions</h4>
             </div>
         </div>
         

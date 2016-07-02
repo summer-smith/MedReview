@@ -5,30 +5,63 @@
 
 /* greein pop: #9fab6b; */
 
-
-/* STYLING FOR NAVIGATION BAR (HEADER)*/
-.head {
-    color: #000000;
-    font-family: "Arial";
-     display: inline-block;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center; /*set to left, center, or right to align the menu as desired*/  
-    background-color: #aaaaaa;
+body{
+    background-color:#d9d9d9ff;
+    display: -webkit-flex;
+    -webkit-flex-flow: column wrap;
+    -webkit-align-items: center;
 }
 
-.head a{
+h4{
+    color:#9fab6b; 
+    text-transform: uppercase;
+}
+
+a:hover{
+    background-color: black;
+    color:white;
+}
+
+/* STYLING FOR NAVIGATION BAR (HEADER)*/
+.header {
+  display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row;
+   flex-direction: row;  
+   width: 100%;
+}
+
+.logo{
+    width:30%
+}
+
+.navigation {
+    color: #000000;
+    font-family: "Arial";
     display: inline-block;
+    list-style-type: none;
+    margin: 5px;
+    text-align: center; /*set to left, center, or right to align the menu as desired*/  
+    background-color: #666666;
+    display: -webkit-flex;
+    height: 50%;
+    width: 70%;
+}
+
+.navigation a{
     border-bottom: none;
     border-top:none;
     text-decoration: none;
     padding: 11px;
     color: white;  
-    text-transform: uppercase;  
+    text-transform: uppercase;
+    justify-content: space-around;
+    text-align:center;
+    display: flex;
+    height:100%;
 }
 
-.head a:hover{
+.navigation a:hover{
     background-color:black;
     text-decoration:none; 
 }
@@ -42,31 +75,76 @@
     justify-content: space-around;
 }
 .flex-item {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 24px;
     justify-content: space-around;
-    text-align:center;
+    padding: 0;
     display: flex;
-    width: 130%;
+    width: 100%;
+}
+
+/*STYLING FOR CONTENT*/
+
+.body {
+    justify-content: flex-start;
+    flex-direction: column;
+    display: flex;
+    max-width: 70%;
+}
+
+.sidebar {
+    background-color:#9599a5;
+    color:white;
+    justify-content: center;
+    display: flex;
+    width:20%;
 }
 
 
 /*STYLING FOR FOOTER MENU*/
-.foot{
-    list-style-type: none;
+.footer{
+    list-style-type: none;   
+    background-color: #666666;
     font-family: "Arial";    
-    margin: 0;
-    margin-bottom: 3%;
-    padding: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content:center;
     width: 100%;
     position: fixed;
-    bottom: 0;   
+    bottom: 0;  
     
 }
 
-.foot a{
+.footer li{
+    display: flex;
     display: inline;
-    text-transform: uppercase;
-    text-decoration:none;
     color:white;
+    width:20%;
+}
+.footer a{
+    text-decoration:none;
+}
+
+
+
+.footer p{
+    width:50%;
+}
+
+
+/*STYLING FOR BUTTONS*/
+button.link {
+    display:flex;
+    border: none;
+    background-color:rgba(0,0,0,0); //Make background transparent
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+    color:white;
+}
+
+button.link:hover{
+    background-color: #9fab6b;
 }
