@@ -1,82 +1,60 @@
 <script type="text/javascript">
     $(':radio').change(
-  function(){
-    $('.choice').text( $(this).val() + ' stars' );
+       function(){
+         $('.choice').text( $(this).val() + ' stars' );
   } 
 )
 
 </script>
 
-<html lang="en-us" class="homepage">
+<html lang="en-us" class="calendars">
     <head>
         <meta charset="UTF-8">
         <!-- This Labels the Window/Tab -->
         <title>HOME | medreview</title>
         <meta name="author" content="Brandon Webb">
-        <meta name="author" content="Summer Smith">        
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="CSS/cssstyles.css" type="text/css" rel="stylesheet" media="screen" />
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+        <link href="../medreview/CSS/cssstyles.css" type="text/css" rel="stylesheet" media="screen" />
         <meta name="viewport" content="width=device-width, iniHal-scale=1.0, maximum-scale=1.0">
     </head>
+    <body>
+        <?php include // $_SERVER['DOCUMENT_ROOT'].
+        '/modules/header.php'; ?>
 
-<span class="star-rating">
-  <input type="radio" name="rating" value="1"><i></i>
-  <input type="radio" name="rating" value="2"><i></i>
-  <input type="radio" name="rating" value="3"><i></i>
-  <input type="radio" name="rating" value="4"><i></i>
-  <input type="radio" name="rating" value="5"><i></i>
-</span>
-<strong class="choice">Choose a rating</strong>
-
-
-        <form method="post" action="" id="contactForm" onreset="loadPage()
-                    onsubmit="return validateForm();">
-            <table>
-                <tr>
-                    <td>First name:</td>
-                    <td><input type="text" id="fName" onblur="validateFName()"></td>
-                <td class="error" id="fNameValid">First name required</td>
-                </tr>
-                <tr>
-                    <td>Last name:</td>
-                    <td><input type="text" id="lName" onblur="validateLName()"></td>
-                    <td class="error" id="lNameValid">
-                    Last name required</td>
-                </tr>
-                <tr>
-                    <td>Email Address:</td>
-                    <td><input type="text" id="address" onblur="validateAddress()"></td>
-                    <td class="error" id="addValid">Address required</td>
-                </tr>
-                <tr>
-                    <td>Zip:</td>
-                    <td><input type="text" id="zip" maxlength="5" size="5" onblur="validateZip()"></td>
-                    <td class="error" id="zipValid">Zip code required</td>    
-                </tr>   
-                <tr>
-                    <td>Phone:</td>
-                    <td>(<input type="text" id="phone1" maxlength="3" size="3">)
-                        <input type="text" id="phone2" maxlength="3" size="3">
-                    - <input type="text" id="phone3" maxlength="4" size="4" onblur="validatePhone()">
-                    </td>
-                    <td class="error" id="phoneValid">Full phone number required<br />(000)000-0000</td>
-                </tr>
-                
-                <tr>
-                    <td>Message:</td>
-                    <td class="error" id="noMsg">Message cannot be blank!</td>
-                </tr>
-            </table>
-                    
-            <textarea name="message" id="message" rows="10" cols="30" 
-                      onblur="validateMessage()" placeholder="Type message here">
+        <div class="flex-container">
+            <?php include '/modules/sidebar.php'; ?>
+           
+            <div class="body">
+                <h4>Doctor Review</h4>
+     
+                <h3>Rate your doctor:</h3>
+                 <div class="stars">
+                    <form action="">
+                      <input class="star star-5" id="star-5" type="radio" name="star"/>
+                      <label class="star star-5" for="star-5"></label>
+                      <input class="star star-4" id="star-4" type="radio" name="star"/>
+                      <label class="star star-4" for="star-4"></label>
+                      <input class="star star-3" id="star-3" type="radio" name="star"/>
+                      <label class="star star-3" for="star-3"></label>
+                      <input class="star star-2" id="star-2" type="radio" name="star"/>
+                      <label class="star star-2" for="star-2"></label>
+                      <input class="star star-1" id="star-1" type="radio" name="star"/>
+                      <label class="star star-1" for="star-1"></label>
+                    </form>
+                  </div>
+                  
+                <h3>Comments:</h3>
+            <textarea name="comments" id="comments" rows="10" cols="30" 
+                      onblur="" placeholder="">
             </textarea>
-                                        
-            <div style="text-align:center">
-                <input type="submit" value="Send" onclick="return validateForm()"/>
-                <input type="reset" value="Cancel" />
-                
-          </div>
-        </form>
-   
+     
+     </div>
+        </div>
+        
+     <?php include  // $_SERVER['DOCUMENT_ROOT'].
+        '/modules/footer.php'; ?>     
+    
+    </body>
+    
 </html>
