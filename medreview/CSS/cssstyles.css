@@ -10,6 +10,7 @@
 .head {
     color: #000000;
     font-family: "Arial";
+     display: inline-block;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -23,7 +24,6 @@
     border-top:none;
     text-decoration: none;
     padding: 11px;
-    margin-right: -3px;
     color: white;  
     text-transform: uppercase;  
 }
@@ -39,17 +39,13 @@
     display: -webkit-flex;
     display: flex;
     width: 100%;
-    background-color: #dddddd;
-    margin-top: 1%;
+    justify-content: space-around;
 }
 .flex-item {
-    background-color: #000000;
-    color: #ffffff;
-    font-size: 24px;
     justify-content: space-around;
-    padding: 0;
+    text-align:center;
     display: flex;
-    width: 100%;
+    width: 130%;
 }
 
 
