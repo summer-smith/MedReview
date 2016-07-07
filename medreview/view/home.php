@@ -7,8 +7,9 @@
         <title>HOME | medreview</title>
         <meta name="author" content="Brandon Webb">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
         <link href="../medreview/CSS/cssstyles.css" type="text/css" rel="stylesheet" media="screen" />
-        <meta name="viewport" content="width=device-width, iniHal-scale=1.0, maximum-scale=1.0">
     </head>
     <body>
     <?php include // $_SERVER['DOCUMENT_ROOT'].
