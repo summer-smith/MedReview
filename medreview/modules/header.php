@@ -3,13 +3,12 @@
         <a href="/view/home.php"> <img src="images/logobasic.jpg" alt="Home"/></a>
     </div>
     <nav class="navigation"> 
-        <div id="menu">
-            <ul class ="navigation">
-                <li class="navigation"><a  href="../view/doctorreview.php">Review</a></li>
-                <li class="navigation"><a  href="/view/faq.php">FAQ</a></li>
-                <li class="navigation"><a  href="/">Contact</a></li>
-            </ul>
-        </div>
+            <form action="." method="post">
+                <button type="submit" class="navigation" name="action" value="home" >Home</button>  
+                <button type="submit" class="navigation" name="action" value="doctorreview" >Review </button>
+                <button type="submit" class="navigation" name="action" value="contact" >Contact</button>
+                <button type="submit" class="navigation" name="action" value="faq" >FAQ</button>      
+            </form>
     </nav>
 
 </header>                                                                                   

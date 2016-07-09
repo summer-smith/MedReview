@@ -10,14 +10,15 @@
         <link href="../medreview/CSS/cssstyles.css" type="text/css" rel="stylesheet" media="screen" />
         <meta name="viewport" content="width=device-width, iniHal-scale=1.0, maximum-scale=1.0">
     </head>
-    <body>
     <?php include // $_SERVER['DOCUMENT_ROOT'].
     '/modules/header.php'; ?>
+    <body>
+
         
-        <div class="flex-container">
+        <div class="main">
             <?php include '/modules/sidebar.php'; ?>
 
-            <div class="body">
+            <div class="maincontent">
                 <h4>Account</h4>
             </div>
         </div>

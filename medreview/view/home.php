@@ -11,14 +11,14 @@
         <link rel="icon" href="favicon.ico" type="image/x-icon">
         <link href="../medreview/CSS/cssstyles.css" type="text/css" rel="stylesheet" media="screen" />
     </head>
-    <body>
     <?php include // $_SERVER['DOCUMENT_ROOT'].
     '/modules/header.php'; ?>
-        
-        <div class="flex-container">
-<?php include '/modules/sidebar.php'; ?>
+    <body>
+        <div class="main">        
+        <?php include '/modules/sidebar.php'; ?>
 
-            <div class="body">
+            <div class="maincontent">
+                
                 <h4>Home</h4>
                 <p>
                    Lorem ipsum dolor sit amet, graeco fuisset contentiones nec at. Eos prima illud dissentias an, et wisi tollit ancillae pri. Sit in liber vocent, ei nisl atqui evertitur qui. In vix saepe consulatu, no vim wisi aliquam incorrupte. Sit id cibo oblique, ut cum dicta civibus recteque. Ex sed quot argumentum, primis nostrud ea mel.
@@ -32,11 +32,10 @@
     Feugiat sapientem has eu, ex vis sint dolorem abhorreant. Appareat platonem his et. Et natum propriae mel, ea duo autem integre. Saperet omnesque lucilius eu duo. Ut mundi audire luptatum vis. 
                 </p>
             </div>
-        </div>
         
-     <?php include  // $_SERVER['DOCUMENT_ROOT'].
-        '/modules/footer.php'; ?>     
-    
+ 
+        </div>
     </body>
-    
+     <?php include  // $_SERVER['DOCUMENT_ROOT'].
+        '/modules/footer.php'; ?>        
 </html>

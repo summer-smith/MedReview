@@ -14,10 +14,10 @@
     <?php include // $_SERVER['DOCUMENT_ROOT'].
     '/modules/header.php'; ?>
         
-        <div class="flex-container">
+        <div class="main">
             <?php include '/modules/sidebar.php'; ?>
 
-            <div class="body">
+            <div class="maincontent">
                 <h4>Review a Hospital</h4>
             </div>
         </div>

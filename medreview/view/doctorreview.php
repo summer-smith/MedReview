@@ -18,17 +18,20 @@
         <link href="../medreview/CSS/cssstyles.css" type="text/css" rel="stylesheet" media="screen" />
         <meta name="viewport" content="width=device-width, iniHal-scale=1.0, maximum-scale=1.0">
     </head>
-    <body>
-        <?php include // $_SERVER['DOCUMENT_ROOT'].
+    
+    <?php include // $_SERVER['DOCUMENT_ROOT'].
         '/modules/header.php'; ?>
-
-        <div class="flex-container">
+    
+    <body>
+        <div class="main">
             <?php include '/modules/sidebar.php'; ?>
            
-            <div class="body">
+            <div class="maincontent">
                 <h4>Doctor Review</h4>
      
                 <h3>Rate your doctor:</h3>
+                <h4>How would you rate your overall experience?</h4>
+                <div class="starcontainer">
                  <div class="stars">
                     <form action="">
                       <input class="star star-5" id="star-5" type="radio" name="star"/>
@@ -43,13 +46,14 @@
                       <label class="star star-1" for="star-1"></label>
                     </form>
                   </div>
+                </div>
                   
                 <h3>Comments:</h3>
             <textarea name="comments" id="comments" rows="10" cols="30" 
                       onblur="" placeholder="">
             </textarea>
      
-     </div>
+            </div>
         </div>
         
      <?php include  // $_SERVER['DOCUMENT_ROOT'].
