@@ -71,6 +71,20 @@ button.navigation:hover{
     text-decoration:none; 
 }
 
+button.bttn2 {
+    border-radius: 25px;
+    background-color: #9fab6b;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    width:100px;
+}
+
+button.bttn2:hover{
+    background-color:#666666;
+}
 
 /*Centers Logo*/
 .flex-container {
