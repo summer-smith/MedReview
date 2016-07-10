@@ -56,7 +56,7 @@
                     </div>
                     <br><br><br>
                     <h3>Comments:</h3>
-                    <textarea name="comments" id="comments" rows="10" cols="100" 
+                    <textarea name="comments" id="comments" rows="8" cols="100" 
                           onblur="" placeholder="">
                     </textarea><br>
                     
