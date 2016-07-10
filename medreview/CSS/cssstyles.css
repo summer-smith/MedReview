@@ -82,6 +82,7 @@ button.bttn2 {
     width:100px;
 }
 
+
 button.bttn2:hover{
     background-color:#666666;
 }
@@ -122,9 +123,6 @@ h4{
 }
 
 .maincontent {
-    flex-direction: column;
-    display: -webkit-flex;
-    display: flex;
     width: 40%;
     padding-left:20%;
 }
@@ -190,6 +188,14 @@ button.link:hover{
 
 
 /*STYLING FOR REVIEW PAGES*/
+form.doctorReview{
+}
+
+.error{
+    color:red;
+    display:inline;
+    display:none;
+}
 
 //METHOD 1
 .starcontainer{

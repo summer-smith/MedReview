@@ -20,6 +20,22 @@
 
             <div class="maincontent">
                 <h4>Frequently Asked Questions</h4>
+                <h3>Is there a fee to use Medreview?</h3>
+                <p>It's absolutely free! The service is provided by Healthnet Health to help you become a healthier, more informed patient.</p>
+                
+                <h3>How soon will my reviews show up?</h3>
+                <p>Usually, information about your inpatient stay is available minutes after you leave your comment.  However, please allow 2-3 days for processing before contacting the help desk.</p>
+                
+                <h3>What if I forgot my password?</h3>
+                <p>Click “Change password” on the website under the login spot.</p>
+                
+                <h3>Do I need any special equipment to use Medreview?</h3>
+                <p>No, it's easy to use. You don't have to download or install any programs - just log on to the website l with your Username (your email address) and password, and then answer your security question. You can access the information from any computer or smartphone with Internet connection.</p>
+               
+                <h5>If you have other questions, please call our toll-free Patient Portal Help Line at (555) 555-5556. We are happy to help.</h5>
+                
+                <h3></h3>
+                <p></p>
             </div>
         </div>
         

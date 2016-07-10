@@ -19,6 +19,7 @@
                     </li>
                     <li class="">
                         <a href="/"><h4>About</h4></a>
+                        <p>Medreview is your convenient web-based way to access Medical facilities and Doctor Reviews in your area.</p>
                     </li>
                 </ul>
         </ul>

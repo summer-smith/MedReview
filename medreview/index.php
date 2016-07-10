@@ -18,10 +18,28 @@ switch( $action ) {
     case 'account':
         include('/view/account.php');
         break;
+    
+    case 'about':
+        include('/view/about.php');
+        break;
 
     case 'faq':
         include('/view/faq.php');
         break;
+    
+    case 'validateDoctorReview':
+        $name = $_POST['doctorName'];
+        $email = $_POST['email'];
+        $comments = $_POST['comments'];
+        
+        if(empty($name) || empty($email)){
+            $reply = "ERROR";
+            include('/view/doctorreview.php');
+            exit;
+        }else{
+            break;
+        }
+        
     
     case 'doctorreview':
         include('/view/doctorreview.php');
