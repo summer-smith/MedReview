@@ -27,6 +27,34 @@ switch( $action ) {
         include('/view/faq.php');
         break;
     
+    case 'doctor':
+        include('/view/doctor.php');
+        break;        
+    
+    case 'doctorreview':
+        include('/view/doctorreview.php');
+        break;
+    
+    case 'hospital':
+        include('/view/hospital.php');
+        break;    
+    
+    case 'hospitalreview':
+        include('/view/hospitalreview.php');
+        break;
+    
+    case 'login':
+        include('/view/login.php');
+        break;
+    
+    case 'searchdoctors':
+        //TODO: add views for searches
+        break;
+    
+    case 'searchospitals':
+        //TODO: add views for searches
+        break;
+    
     case 'validateDoctorReview':
         $name = $_POST['doctorName'];
         $email = $_POST['email'];
@@ -39,19 +67,7 @@ switch( $action ) {
         }else{
             break;
         }
-        
-    
-    case 'doctorreview':
-        include('/view/doctorreview.php');
-        break;
-    
-    case 'hospitalreview':
-        include('/view/hospitalreview.php');
-        break;
-    
-    case 'login':
-        include('/view/login.php');
-        break;
+            
     
     case 'home':
     default:

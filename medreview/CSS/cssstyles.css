@@ -50,7 +50,6 @@ button.navigation {
     height:100%;
     border: none;
     background-color:rgba(0,0,0,0); //Make background transparent
-    text-decoration: none;
     display: block;
     font-size: 16px;
     cursor: pointer;
@@ -71,21 +70,6 @@ button.navigation:hover{
     text-decoration:none; 
 }
 
-button.bttn2 {
-    border-radius: 25px;
-    background-color: #9fab6b;
-    border: none;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-    width:100px;
-}
-
-
-button.bttn2:hover{
-    background-color:#666666;
-}
 
 /*Centers Logo*/
 .flex-container {
@@ -109,6 +93,13 @@ body{
     background-color:#d9d9d9ff;
 }
 
+h2{
+    text-align:center;
+    font-family: serif;
+    text-transform:uppercase;
+    color:#666666;
+}
+
 h4{
     color:#9fab6b; 
     text-transform: uppercase;
@@ -125,6 +116,7 @@ h4{
 .maincontent {
     width: 40%;
     padding-left:20%;
+    display:inline;
 }
 
 .sidebar {
@@ -140,14 +132,12 @@ h4{
 
 
 /*STYLING FOR FOOTER MENU*/
-.footer{
-    list-style-type: none;   
+.footer{ 
     background-color: #666666;
     font-family: "Arial";    
     display: flex;
     justify-content:center;
     width: 100%;
-    position: fixed;
     bottom: 0;  
     
 }
@@ -185,6 +175,45 @@ button.link {
 button.link:hover{
     background-color: #9fab6b;
 }
+
+button.menu{
+    border: none;
+    text-align:center;
+    background-color:light-grey;
+    text-decoration: none;
+        border-radius: 25px;
+    font-size: 100px;
+    cursor: pointer;
+    height:90%;
+    width:90%;
+    padding-top:50px;
+    padding-bottom:50px;
+    display:inline;
+    color:white;
+    text-transform: uppercase;
+}
+
+button.menu:hover{
+    background-color:#9fab6b;
+}
+
+
+button.bttn2 {
+    border-radius: 25px;
+    background-color: #9fab6b;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    width:100px;
+}
+
+
+button.bttn2:hover{
+    background-color:#666666;
+}
+
 
 
 /*STYLING FOR REVIEW PAGES*/

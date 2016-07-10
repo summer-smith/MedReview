@@ -5,8 +5,8 @@
     <nav class="navigation"> 
             <form action="." method="post">
                 <button type="submit" class="navigation" name="action" value="home" >Home</button>  
-                <button type="submit" class="navigation" name="action" value="doctorreview" >Review </button>
-                <button type="submit" class="navigation" name="action" value="contact" >Contact</button>
+                <button type="submit" class="navigation" name="action" value="doctor" >Doctors</button>
+                <button type="submit" class="navigation" name="action" value="hospital" >Hospitals</button>
                 <button type="submit" class="navigation" name="action" value="faq" >FAQ</button>      
             </form>
     </nav>

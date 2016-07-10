@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!--My Site Home Page-->
 <html lang="en-us" class="calendars">
     <head>
         <meta charset="UTF-8">
